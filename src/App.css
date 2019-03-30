@@ -1,33 +1,69 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f0f2f5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-block {
+  display: flex;
+  background-color: #001529;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo{
+  margin: 20px;
+}
+
+.config-container{
+  margin: auto;
+  width: 80%;
+}
+
+.config-head{
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conf-button{
+  margin: 5px;
+}
+
+.conf-edit{
+  background-color: white;
+  width: 100%;
+  height: 800px;
+}
+
+.conf-row {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-item-card{
+  width: 100% !important;
+  margin: 20px;
+}
+
+.config-items{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.config-spacing{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-between;
 }
